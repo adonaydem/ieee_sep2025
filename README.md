@@ -111,77 +111,10 @@ The app utilizes several **pre-trained models** and assets:
 - `assets/audio/` - System sounds and TTS audio
 - `assets/images/` - UI assets and tutorial screenshots
 
-## � Visual User Manual
-
-### Getting Started
-<div align="center">
-<table>
-<tr>
-<td align="center">
-<img src="./projects/assets/images/signup.png" width="200"/><br/>
-<b>🔐 Sign Up Process</b><br/>
-Create your secure account
-</td>
-<td align="center">
-<img src="./projects/assets/images/form.png" width="200"/><br/>
-<b>📝 Account Details</b><br/>
-Fill in your information
-</td>
-</tr>
-</table>
-</div>
-
-### Core Features
-<div align="center">
-<table>
-<tr>
-<td align="center">
-<img src="./projects/assets/images/object_detection.png" width="200"/><br/>
-<b>🔍 Object Detection</b><br/>
-Real-time hazard identification
-</td>
-<td align="center">
-<img src="./projects/assets/images/text_recognition.png" width="200"/><br/>
-<b>📝 Text Recognition</b><br/>
-OCR for signs and documents
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="./projects/assets/images/scene_description.png" width="200"/><br/>
-<b>🌄 Scene Analysis</b><br/>
-Environmental awareness
-</td>
-<td align="center">
-<img src="./projects/assets/images/voice_messaging.png" width="200"/><br/>
-<b>💬 Voice Messaging</b><br/>
-Communication platform
-</td>
-</tr>
-</table>
-</div>
-
-### Safety & Settings
-<div align="center">
-<table>
-<tr>
-<td align="center">
-<img src="./projects/assets/images/emergency.png" width="200"/><br/>
-<b>🚨 Emergency Features</b><br/>
-Safety protocols & alerts
-</td>
-<td align="center">
-<img src="./projects/assets/images/settings.png" width="200"/><br/>
-<b>⚙️ Settings</b><br/>
-Customize your experience
-</td>
-</tr>
-</table>
-</div>
-
 ## �🔧 Backend Architecture
 
 The backend is a **Python-based microservices architecture** located in `/sep_backend/`. 
+🔗 **[Backend](https://github.com/adonaydem/sep_backend/)**  
 
 **👉 For detailed backend setup, configuration, and API documentation, navigate to:**
 ```bash

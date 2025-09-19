@@ -1,6 +1,10 @@
-# 🚀 Radiance: Intelligent Assistive Technology Platform
+<p align="center">
+    <img src="./projects/assets/images/SEP_Logo.png" alt="VisionAid Logo" width="180"/>
+</p>
 
-**Built by Adonay, Sara Walhan and Sedra Wattar**
+# Radiance: Intelligent Assistive Technology Platform
+
+**Built by Adonay, Sedra Wattar and Sara Walhan**
 
 > *Where cutting-edge AI meets accessibility engineering*
 
@@ -10,7 +14,7 @@
 
 [![Award](https://img.shields.io/badge/IEEE%20UAE%20Software%20Engineering%20Winner-2025-FFD700?style=for-the-badge&logo=ieee&logoColor=white)](https://ieee.org)
 
-VisionAid v9 is a **multimodal AI-powered assistive technology platform** that leverages real-time computer vision, natural language processing, and edge computing to provide comprehensive environmental awareness for visually impaired users.
+Radiance is a **multimodal AI-powered assistive technology platform** that leverages real-time computer vision, natural language processing, and edge computing to provide comprehensive environmental awareness for visually impaired users.
 
 ## 🎓 Key User Features
 
@@ -26,7 +30,7 @@ VisionAid v9 is a **multimodal AI-powered assistive technology platform** that l
 This repo follows a **microservices-oriented architecture** with clear separation of concerns:
 
 ```
-VisionAid_v9/
+root/
 ├── 📱 projects/              # Flutter mobile application (client-side)
 │   ├── lib/                  # Dart application logic
 │   ├── assets/               # ML models, audio assets, tessdata
@@ -65,13 +69,19 @@ VisionAid_v9/
 | 🔍 **Real-time Object Detection** | YOLO v11 + TFLite | Hazard identification & navigation assistance |
 | 📝 **Text Recognition** | Tesseract OCR | Sign reading, document scanning |
 | 🌄 **Scene Description** | ResNet-18 Places365 | Environmental context awareness |
+| 🤖 **Agentic AI System** | LangGraph + OpenAI | Hands-free app control & tool orchestration |
 | 💬 **Voice Messaging** | Speech-to-Text + Flask API | Communication platform |
 | 🚨 **Emergency System** | GPS + Real-time alerts | Safety & emergency response |
 | ⚙️ **Adaptive Settings** | Local preferences | Personalized user experience |
 
 ## 📱 Android Frontend Setup & Deployment
 
-
+<div align="center">
+<img src="./projects/assets/images/object_detection.png" width="180"/>
+<img src="./projects/assets/images/text_recognition.png" width="180"/>
+<img src="./projects/assets/images/scene_description.png" width="180"/>
+<img src="./projects/assets/images/voice_messaging.png" width="180"/>
+</div>
 
 ### Quick Start
 ```bash
@@ -93,7 +103,75 @@ The app utilizes several **pre-trained models** and assets:
 - `assets/audio/` - System sounds and TTS audio
 - `assets/images/` - UI assets and tutorial screenshots
 
-## 🔧 Backend Architecture
+## � Visual User Manual
+
+### Getting Started
+<div align="center">
+<table>
+<tr>
+<td align="center">
+<img src="./projects/assets/images/signup.png" width="200"/><br/>
+<b>🔐 Sign Up Process</b><br/>
+Create your secure account
+</td>
+<td align="center">
+<img src="./projects/assets/images/form.png" width="200"/><br/>
+<b>📝 Account Details</b><br/>
+Fill in your information
+</td>
+</tr>
+</table>
+</div>
+
+### Core Features
+<div align="center">
+<table>
+<tr>
+<td align="center">
+<img src="./projects/assets/images/object_detection.png" width="200"/><br/>
+<b>🔍 Object Detection</b><br/>
+Real-time hazard identification
+</td>
+<td align="center">
+<img src="./projects/assets/images/text_recognition.png" width="200"/><br/>
+<b>📝 Text Recognition</b><br/>
+OCR for signs and documents
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="./projects/assets/images/scene_description.png" width="200"/><br/>
+<b>🌄 Scene Analysis</b><br/>
+Environmental awareness
+</td>
+<td align="center">
+<img src="./projects/assets/images/voice_messaging.png" width="200"/><br/>
+<b>💬 Voice Messaging</b><br/>
+Communication platform
+</td>
+</tr>
+</table>
+</div>
+
+### Safety & Settings
+<div align="center">
+<table>
+<tr>
+<td align="center">
+<img src="./projects/assets/images/emergency.png" width="200"/><br/>
+<b>🚨 Emergency Features</b><br/>
+Safety protocols & alerts
+</td>
+<td align="center">
+<img src="./projects/assets/images/settings.png" width="200"/><br/>
+<b>⚙️ Settings</b><br/>
+Customize your experience
+</td>
+</tr>
+</table>
+</div>
+
+## �🔧 Backend Architecture
 
 The backend is a **Python-based microservices architecture** located in `/sep_backend/`. 
 

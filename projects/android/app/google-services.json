@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "710082053058",
+    "project_id": "visionaid-d6e0e",
+    "storage_bucket": "visionaid-d6e0e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710082053058:android:89fc0c5762105401a60c5b",
+        "android_client_info": {
+          "package_name": "com.example.projects"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzzrUuFuiFqxrpDJcwzeVQrqFQTDdh7LY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

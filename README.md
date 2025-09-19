@@ -16,6 +16,13 @@
 
 Radiance is a **multimodal AI-powered assistive technology platform** that leverages real-time computer vision, natural language processing, and edge computing to provide comprehensive environmental awareness for visually impaired users.
 
+<div align="center">
+<img src="./projects/assets/images/object_detection.png" width="180"/>
+<img src="./projects/assets/images/text_recognition.png" width="180"/>
+<img src="./projects/assets/images/scene_description.png" width="180"/>
+<img src="./projects/assets/images/voice_messaging.png" width="180"/>
+</div>
+
 ## 🎓 Key User Features
 
 - **Object Detection:** Identify hazards in real time using the camera.
@@ -58,7 +65,7 @@ root/
 
 **ML/AI Models**
 - **YOLO v11** variants (FP16/FP32/INT8 quantized)
-- **ResNet-18 Places365** - Scene classification
+- **ResNet-18 Places365 + BLIP** - Scene description
 - **Tesseract** - Multi-language OCR engine
 - **Custom voice synthesis** - Audio feedback system
 
@@ -74,14 +81,15 @@ root/
 | 🚨 **Emergency System** | GPS + Real-time alerts | Safety & emergency response |
 | ⚙️ **Adaptive Settings** | Local preferences | Personalized user experience |
 
-## 📱 Android Frontend Setup & Deployment
+## 🚀 Performance Optimizations
 
-<div align="center">
-<img src="./projects/assets/images/object_detection.png" width="180"/>
-<img src="./projects/assets/images/text_recognition.png" width="180"/>
-<img src="./projects/assets/images/scene_description.png" width="180"/>
-<img src="./projects/assets/images/voice_messaging.png" width="180"/>
-</div>
+- **Model quantization** - INT8/FP16 variants for mobile efficiency
+- **Edge computing** - Hybrid On-device inference reduces latency
+- **Async processing** - Non-blocking UI with background tasks
+- **Caching strategies** - Local storage for frequently accessed data
+
+
+## 📱 Android Frontend Setup & Deployment
 
 ### Quick Start
 ```bash
@@ -189,20 +197,6 @@ Key backend components include:
 - **Geolocation services** (`directions.py`)
 
 
-
-## 🛡️ Security & Privacy
-
-- **Local-first processing** - Sensitive data processed on-device when possible
-- **Encrypted communication** - All API calls use HTTPS/TLS
-- **Permission management** - Granular control over camera, microphone, location
-- **Data minimization** - Only necessary data transmitted to backend
-
-## 🚀 Performance Optimizations
-
-- **Model quantization** - INT8/FP16 variants for mobile efficiency
-- **Edge computing** - On-device inference reduces latency
-- **Async processing** - Non-blocking UI with background tasks
-- **Caching strategies** - Local storage for frequently accessed data
 
 ## 📜 License & Legal
 

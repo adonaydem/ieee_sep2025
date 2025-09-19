@@ -4,7 +4,7 @@
 
 # Radiance: Intelligent Assistive Technology Platform
 
-**Built by Adonay, Sedra Wattar and Sara Walhan**
+**Built by Adonay, Sedra Wattar, Sara Walhan and Eng. Wessam Sheiheb**
 
 > *Where cutting-edge AI meets accessibility engineering*
 

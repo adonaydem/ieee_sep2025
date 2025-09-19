@@ -42,7 +42,7 @@ root/
 │   ├── lib/                  # Dart application logic
 │   ├── assets/               # ML models, audio assets, tessdata
 │   └── android/ios/linux/    # Platform-specific builds
-├── 🔧 sep_backend/           # Python Flask API server (backend services)
+├── 🔧 sep_backend/           # Python Flask API server (backend services) 🔗 **[Backend](https://github.com/adonaydem/sep_backend/)**  
 ├── 🛠️  build/                # CMake build artifacts
 └── 📋 LICENSE               # Apache 2.0 licensing
 ```
@@ -69,17 +69,6 @@ root/
 - **Tesseract** - Multi-language OCR engine
 - **Custom voice synthesis** - Audio feedback system
 
-## 🎯 Feature Matrix
-
-| Feature | Technology | Purpose |
-|---------|------------|---------|
-| 🔍 **Real-time Object Detection** | YOLO v11 + TFLite | Hazard identification & navigation assistance |
-| 📝 **Text Recognition** | Tesseract OCR | Sign reading, document scanning |
-| 🌄 **Scene Description** | ResNet-18 Places365 | Environmental context awareness |
-| 🤖 **Agentic AI System** | LangGraph + OpenAI | Hands-free app control & tool orchestration |
-| 💬 **Voice Messaging** | Speech-to-Text + Flask API | Communication platform |
-| 🚨 **Emergency System** | GPS + Real-time alerts | Safety & emergency response |
-| ⚙️ **Adaptive Settings** | Local preferences | Personalized user experience |
 
 ## 🚀 Performance Optimizations
 
@@ -111,10 +100,10 @@ The app utilizes several **pre-trained models** and assets:
 - `assets/audio/` - System sounds and TTS audio
 - `assets/images/` - UI assets and tutorial screenshots
 
-## �🔧 Backend Architecture
+## �� Backend Architecture 🔗 **[Backend](https://github.com/adonaydem/sep_backend/)**
 
 The backend is a **Python-based microservices architecture** located in `/sep_backend/`. 
-🔗 **[Backend](https://github.com/adonaydem/sep_backend/)**  
+
 
 **👉 For detailed backend setup, configuration, and API documentation, navigate to:**
 ```bash
